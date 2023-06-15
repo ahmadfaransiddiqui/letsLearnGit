@@ -24,3 +24,6 @@ git branch branch-name
 git checkout branch-name [HEAD->branch-name]
 git merge feature
 git checkout -b branch-name origin/branch-name
+git ls-files
+git rm file1.txt file2.txt file3.txt
+git diff --name-only
