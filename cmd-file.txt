@@ -15,5 +15,12 @@ git push origin main
 git status
 git add .
 git commit -m "comment"
+del file-name
 //Pushing is the process of uploading your local commits to a remote Git repository.
 //Committing is the process of saving your changes to the local Git repository.
+git restore --stagged file-name // git remove HEAD file-name
+git log
+git branch branch-name
+git checkout branch-name [HEAD->branch-name]
+git merge feature
+git checkout -b branch-name origin/branch-name
