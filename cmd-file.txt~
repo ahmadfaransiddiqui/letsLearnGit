@@ -1,0 +1,10 @@
+mkdir learning-cmd-nd-git
+cd D:/learning-cmd-nd-git
+echo. > cmd-file.txt // type nul > cmd-file.txt // copy con cmd-file.txt
+dir /b
+choco install vim
+vim cmd-file.txt
+	i --INSERT--
+	esc :wq :q! :x
+notepad learn-cmd.git
+dir /a
